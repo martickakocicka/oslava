@@ -1,3 +1,15 @@
 body {
   background-color: #edbdc4;
+  margin: 0%;
+}
+
+img {
+  width: 100vw;
+  height: auto;
+  margin: 0%;
+}
+.title {
+  font-family: "Playwrite CZ";
+  font-size: 36px;
+  text-align: center;
 }
