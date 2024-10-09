@@ -13,3 +13,19 @@ img {
   font-size: 43px;
   text-align: center;
 }
+h3 {
+  font-family: "Playwrite CZ";
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  border-top: 1px dotted black;
+  display: inline-block;
+  margin: 0% 5% 5% 10%;
+}
+
+.uvod {
+  margin: 5%;
+  font-family: LXGW WenKai TC;
+  font-style: italic;
+  font-weight: 600;
+}
