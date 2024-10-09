@@ -2,14 +2,14 @@ body {
   background-color: #edbdc4;
   margin: 0%;
 }
-
 img {
   width: 100vw;
   height: auto;
   margin: 0%;
+  margin-right: 10%;
 }
 .title {
   font-family: "Playwrite CZ";
-  font-size: 36px;
+  font-size: 43px;
   text-align: center;
 }
