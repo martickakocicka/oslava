@@ -3,6 +3,20 @@ body {
   margin: 0%;
   font-family: Kalam;
   font-weight: 500;
+  font-size: 19px;
+}
+.title {
+  font-family: "Playwrite CZ";
+  font-size: 43px;
+  text-align: center;
+  text-shadow: 5px 5px 15px rgb(152, 118, 118) ;
+}
+@media only screen and (min-width: 992px) {
+  .title {
+    font-size: 48px;
+    text-align: start;
+    margin-left: 5%;
+  }
 }
 img {
   width: 100vw;
@@ -10,19 +24,20 @@ img {
   margin: 0%;
   margin-right: 10%;
 }
-.Eda,
+@media only screen and (min-width: 992px) {
+  img {
+    width: 70vw;
+  }
+}
+/*.Eda,
 .Fr {
   font-size: 12px;
   display: inline-block;
 }
 .Fr {
   text-align: right;
-}
-.title {
-  font-family: "Playwrite CZ";
-  font-size: 43px;
-  text-align: center;
-}
+}*/
+
 h3 {
   font-family: "Playwrite CZ";
   font-weight: 300;
@@ -32,16 +47,29 @@ h3 {
   display: inline-block;
   margin: 0% 5% 5% 10%;
 }
+@media only screen and (min-width: 992px) {
+  h3 {
+    font-size: 30px;
+    text-align: start;
+    margin: 0%;
+    padding: 2%;
+    margin-bottom: 10%;
+  }
+}
 h4 {
   font-family: "Playwrite CZ";
-  font-weight: 300;
+  font-weight: 500;
   font-size: 17px;
   margin-top: 0%;
 }
-
+@media only screen and (min-width: 992px) {
+  h4 {
+    font-size: 23px;
+  }
+}
 .proc {
   margin: 5%;
-  font-family: LXGW WenKai TC;
+  font-family: Kalam;
   font-style: italic;
   font-weight: 600;
 }
@@ -57,7 +85,30 @@ h4 {
   margin: 5%;
   padding: 3%;
 }
+@media only screen and (min-width: 992px) {
+  .kdy,
+  .kde,
+  .proc,
+  .jak {
+    font-size: 24px;
+  }
+}
+.map {
+  width: 60vw;
+  height: auto;
+}
+@media only screen and (min-width: 992px) {
+  .map {
+    width: 50vw;
+  }
+}
 .krabs {
-  width: 50%;
-  text-align: center;
+  width: 50vw;
+  position: relative;
+  left: 5%;
+}
+@media only screen and (min-width: 992px) {
+  .krabs {
+    width: 20vw;
+  }
 }
