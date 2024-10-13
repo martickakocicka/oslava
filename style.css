@@ -4,19 +4,21 @@ body {
   font-family: Kalam;
   font-weight: 500;
   font-size: 19px;
+  display: flex;
+  flex-direction: column;
 }
 .title {
   font-family: "Playwrite CZ";
   font-size: 43px;
   text-align: center;
-  text-shadow: 1px 1px 5px rgb(152, 118, 118) ;
+  text-shadow: 1px 1px 5px rgb(152, 118, 118);
 }
 @media only screen and (min-width: 992px) {
   .title {
     font-size: 48px;
     text-align: start;
     margin-left: 5%;
-    text-shadow: 5px 5px 15px rgb(152, 118, 118)
+    text-shadow: 5px 5px 15px rgb(152, 118, 118);
   }
 }
 
@@ -31,14 +33,12 @@ img {
     width: 70vw;
   }
 }
-/*.Eda,
-.Fr {
+.data {
   font-size: 12px;
   display: inline-block;
+  display: flex;
+  flex-direction: row;
 }
-.Fr {
-  text-align: right;
-}*/
 
 h3 {
   font-family: "Playwrite CZ";
