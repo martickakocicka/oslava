@@ -1,7 +1,7 @@
 body {
   background-color: #edbdc4;
   margin: 0%;
-  padding: 0;;
+  padding: 0;
   font-family: Kalam;
   font-weight: 500;
   font-size: 19px;
@@ -18,22 +18,72 @@ body {
 }
 @media only screen and (min-width: 992px) {
   .title {
-    font-size: 48px;
-    text-align: start;
-    margin-left: 5%;
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 3%;
     text-shadow: 5px 5px 15px rgb(152, 118, 118);
+    border-bottom: 1px dotted rgb(108, 86, 95);
   }
 }
+
+.pozvanka {
+  display: flex;
+}
+.navigace {
+  display: none;
+}
+@media only screen and (min-width: 992px){
+.navigace {
+  display: inline-block;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+
+  width: 20vw;
+  background-color: #edbdc4;
+  margin: 2vw 1vw 5vw 5vw;
+}
+.menu li {
+  list-style: none;
+  font-family: "Playwrite CZ";
+  color: black;
+  padding: 1%;
+  background-color: #edbdc4;
+  border: 1px dotted rgb(108, 86, 95);
+  box-shadow: 5px 5px 15px rgb(181, 144, 158);
+  border-radius: 10px;
+  text-shadow: 1px 1px 5px rgb(181, 144, 158);
+  text-align: center;
+  margin: 2% 1% 10% 4%;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 50px;
+}
+li:hover {
+  background-color: #f0c9cf;
+}
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(161, 31, 217);
+}}
 
 img {
   width: 100vw;
   height: auto;
   margin: 0%;
-  margin-right: 10%;
 }
 @media only screen and (min-width: 992px) {
   img {
-    width: 70vw;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex: 2;
+    height: max-content;
   }
 }
 .data {
@@ -63,7 +113,7 @@ h3 {
 @media only screen and (min-width: 992px) {
   h3 {
     font-size: 30px;
-    text-align: start;
+    text-align: center;
     margin: 0%;
     padding: 2%;
     margin-bottom: 10%;
@@ -94,7 +144,7 @@ h4 {
   background-color: #f0c9cf;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px rgb(152, 118, 118);
+  box-shadow: 5px 5px 15px rgb(181, 144, 158);
   margin: 5%;
   padding: 3%;
 }
