@@ -158,6 +158,48 @@ h4 {
   .jak {
     font-size: 24px;
   }
+  @media only screen and (min-width: 1800px) {
+    .data {
+      font-size: 24px;
+    }
+    h3 {
+      margin: 0% 5% 1% 5%;
+      padding-top: 7%;
+    }
+    .velke {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex-shrink: 1;
+    }
+    .kdy,
+    .kde,
+    .proc,
+    .jak {
+      flex-shrink: 0;
+      width: 50vw;
+      text-align: center;
+      justify-content: space-around;
+    }
+    .kdy {
+      flex: 1;
+    }
+    .kde {
+      flex: 2;
+      max-width: 45vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .proc {
+      flex: 2;
+    }
+    .jak {
+      flex: 1;
+    }
+    
+  }
 }
 .map {
   width: 60vw;
@@ -183,4 +225,9 @@ footer {
   font-size: 12px;
   border-top: 1px dotted black;
   text-align: center;
+}
+@media only screen and (min-width: 1800px){
+  footer{
+    font-size: 20px;
+  }
 }
