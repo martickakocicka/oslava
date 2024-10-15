@@ -133,8 +133,11 @@ h4 {
 .proc {
   margin: 5%;
   font-family: Kalam;
-  font-style: italic;
-  font-weight: 600;
+
+  font-weight: 500;
+}
+.odstavec {
+  text-transform: uppercase;
 }
 
 .kdy,
